@@ -12,6 +12,10 @@ public class Agencia {
         this.nomeAgencia = nomeAgencia;
     }
 
+    public Agencia() {
+
+    }
+
     public int getCodigoAgencia(){
         return this.codigoAgencia;
     }

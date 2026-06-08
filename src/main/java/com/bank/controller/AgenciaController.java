@@ -2,6 +2,8 @@ package com.bank.controller;
 
 import com.bank.model.Agencia;
 import com.bank.service.AgenciaService;
+import com.bank.service.impl.AgenciaServiceImpl;
+import org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,11 +14,7 @@ import java.util.List;
 @RequestMapping("/agencias")
 public class AgenciaController {
 
-    private final AgenciaService agenciaService;
-
-    public AgenciaController(AgenciaService agenciaService) {
-        this.agenciaService = agenciaService;
-    }
+    private  AgenciaService agenciaService = new AgenciaServiceImpl();
 
 
     @PostMapping
