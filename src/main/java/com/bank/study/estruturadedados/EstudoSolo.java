@@ -68,7 +68,7 @@ public class EstudoSolo {
             }
         });*/
 
-        for (int i = 1; i <=10; i++){
+        /*for (int i = 1; i <=10; i++){
             int xpNecessario = i * 1000;
             System.out.println("Para alcançar o nível: "+i+" você precisa de "+ xpNecessario +" pontos de experiência. ");
         }
@@ -99,6 +99,18 @@ public class EstudoSolo {
         }
         for(String tests : conquistas){
             System.out.println(conquistas);
+        }*/
+
+        String nome = "herói";
+        int forca;
+
+        System.out.println("quanto é a força de cadmus??");
+        forca = scan.nextInt();
+
+        if(forca > 80){
+            System.out.println("Cadmus está furioso como Guts");
+        }else{
+            System.out.println("Cadmus está reunindo forças.");
         }
 
     }
