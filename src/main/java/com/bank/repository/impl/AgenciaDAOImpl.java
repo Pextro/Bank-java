@@ -1,13 +1,13 @@
 package com.bank.repository.impl;
 
 import com.bank.model.Agencia;
-import com.bank.repository.AgenciaDao;
-
+import com.bank.repository.AgenciaDAO;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AgenciaDaoImpl implements AgenciaDao {
+public class AgenciaDAOImpl implements AgenciaDAO {
 
+    //List é um tipo de lista que possui ordem, indice e pode existir repetição.
     private List<Agencia> dataBase = new ArrayList<>();
 
     @Override

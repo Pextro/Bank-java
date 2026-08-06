@@ -8,6 +8,10 @@ public abstract class Conta {
     private String numeroAgencia;
     private String saldo;
 
+    /*public Conta (String cpf, String saldo){
+        this.cpf = cpf;
+        this.saldo = saldo;
+    };*/
     public String getcpf(){
         return this.cpf = cpf;
     }

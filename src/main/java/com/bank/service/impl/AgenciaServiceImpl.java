@@ -1,18 +1,18 @@
 package com.bank.service.impl;
 
 import com.bank.model.Agencia;
-import com.bank.repository.AgenciaDao;
-import com.bank.repository.impl.AgenciaDaoImpl;
+import com.bank.repository.AgenciaDAO;
+import com.bank.repository.impl.AgenciaDAOImpl;
 import com.bank.service.AgenciaService;
 
 import java.util.List;
 
 public class AgenciaServiceImpl implements AgenciaService {
 
-    private AgenciaDao agenciaDao;
+    private AgenciaDAO agenciaDao;
 
     public AgenciaServiceImpl(){
-        this.agenciaDao = new AgenciaDaoImpl();
+        this.agenciaDao = new AgenciaDAOImpl();
     }
 
     @Override

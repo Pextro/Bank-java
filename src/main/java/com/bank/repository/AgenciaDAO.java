@@ -4,7 +4,7 @@ import com.bank.model.Agencia;
 
 import java.util.List;
 
-public interface AgenciaDao {
+public interface AgenciaDAO {
 
     public void create(Agencia agencia);
 

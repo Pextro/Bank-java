@@ -99,7 +99,7 @@ public class EstudoSolo {
         }
         for(String tests : conquistas){
             System.out.println(conquistas);
-        }*/
+        }
 
         String nome = "herói";
         int forca;
@@ -111,6 +111,21 @@ public class EstudoSolo {
             System.out.println("Cadmus está furioso como Guts");
         }else{
             System.out.println("Cadmus está reunindo forças.");
+        }*/
+
+        List<Integer> monstros =List.of(150, 300, 50, 200);
+        int somaForca = 0;
+
+
+        for(int i = 0; i < monstros.size(); i++){
+            somaForca += monstros.get(i);
+        }
+        System.out.println("Força dos monstros a cada leva: "+somaForca);
+
+        for(int forca : monstros){
+            if(forca > 160){
+                System.out.println("Monstro perigoso detectado! Força: " + forca);
+            }
         }
 
     }
